@@ -1,0 +1,43 @@
+color3 {
+    color: rgb(255, 128, 0);
+}
+
+ .articulo1 {
+    background-image: url(EESTN5-BERAZATEGUI.jpg);
+    background-attachment:fixed;
+    background-size: 100%;
+    align-items: center;
+    justify-content: space-between;
+        padding-top: 50px;
+    padding-left:   10px;
+    padding-right: 10px;
+    
+    padding-bottom: 5%;
+    padding: 170px 0px 200px;
+    font-weight: bold;
+    background-size:contain;
+   
+}
+
+
+
+.bienve{
+    color: rgb(0, 89, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+
+    text-align: center;
+}
+
+.subtitulo {
+text-align: center;
+}
+
+
+.subtitulo  h4{
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
