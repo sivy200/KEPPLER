@@ -1,0 +1,139 @@
+
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(208,14,14,1) 98%);
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 200px;
+}
+
+header {
+    background-color: #b80a04;
+    padding: 10px;
+    text-align: right;
+    
+}
+
+header h1 {
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 10px;
+    color: #575757;
+    background-image: -webkit-linear-gradient(45deg, #575757 50%, #4a4a4a 0%, #000000 0%);
+    background-clip: text;
+    -webkit-background-clip: text;
+ 
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.category {
+    padding: 100px;
+}
+
+.category h2 {
+    background-color:  #b80a04;
+    padding: 5px;
+    display: inline-block;
+    margin: 0 0 10px 0;
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    text-decoration: dashed;
+    letter-spacing: 5px;
+    color: #1c1c1c;
+}
+
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+
+.book-container img {
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    transition: transform 0.3s;
+    background-color: rgb(149, 150, 151);
+}
+
+.book-container img:hover {
+    transform: scale(1.1);
+}
+
+
+.titulos h1{
+    margin-left: 400px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+}
+
+
+
+
+.titulos h3{
+    padding-top: 50px;
+    padding-left: 100px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+}
+
+.titulos p{
+    padding-left: 360px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.l{
+    margin-left: 250px;
+    margin-bottom: 10px;  
+
+}
+
+a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: #FFF;
+
+}
+
+.k {
+    margin-left: 220px;
+    margin-bottom: 10px;  
+}
+
+.button_slide {
+    color: #FFF;
+    border: 2px solid #b80a04;
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+  
+  .slide_down:hover {
+    box-shadow: inset 0 100px 0 0 #b80a04;
+  }
+
+  #outer {
+    width: 364px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+  }
